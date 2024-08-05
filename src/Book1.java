@@ -1,14 +1,15 @@
 import java.util.ArrayList;
 public class Book1 {
     String title, author, ISBN;
+
     static ArrayList<Book1> bookCollection = new ArrayList<>();
 
     Book1(String title, String author, String ISBN) {
-        this.author = author;
+        this.title = title;
         this.author = author;
         this.ISBN = ISBN;
     }
-
+    //Implementing Getter Concept....
     String getTitle() {
         return title;
     }
@@ -21,6 +22,7 @@ public class Book1 {
         return ISBN;
     }
 
+    //Implementing Setter Concept....
     void setTitle(String title) {
         this.title = title;
     }
