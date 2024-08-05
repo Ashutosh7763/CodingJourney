@@ -4,7 +4,7 @@ public class Book1 {
     static ArrayList<Book1> bookCollection = new ArrayList<>();
 
     Book1(String title, String author, String ISBN) {
-        this.author = author;
+        this.title = title;
         this.author = author;
         this.ISBN = ISBN;
     }
