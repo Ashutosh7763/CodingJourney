@@ -43,9 +43,9 @@ public class Book1 {
         bookCollection.remove(book);
     }
 
-    static ArrayList<Book1> getBookCollection() {
-        return bookCollection;
-    }
+//    static ArrayList<Book1> getBookCollection() {
+//        return bookCollection;
+//    }
 
     public static void main(String[] args) {
         Book1 book1 = new Book1("Java", "Ashutosh", "76857");
