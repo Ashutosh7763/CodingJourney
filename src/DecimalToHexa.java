@@ -18,6 +18,5 @@ public class DecimalToHexa {
         {
             System.out.print(arr[j]);
         }
-
     }
 }

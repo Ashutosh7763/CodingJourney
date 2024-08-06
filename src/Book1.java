@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 public class Book1 {
     String title, author, ISBN;
+
     static ArrayList<Book1> bookCollection = new ArrayList<>();
 
     Book1(String title, String author, String ISBN) {
@@ -8,7 +9,7 @@ public class Book1 {
         this.author = author;
         this.ISBN = ISBN;
     }
-
+    //Implementing Getter Concept....
     String getTitle() {
         return title;
     }
@@ -21,6 +22,7 @@ public class Book1 {
         return ISBN;
     }
 
+    //Implementing Setter Concept....
     void setTitle(String title) {
         this.title = title;
     }
@@ -41,9 +43,9 @@ public class Book1 {
         bookCollection.remove(book);
     }
 
-    static ArrayList<Book1> getBookCollection() {
-        return bookCollection;
-    }
+//    static ArrayList<Book1> getBookCollection() {
+//        return bookCollection;
+//    }
 
     public static void main(String[] args) {
         Book1 book1 = new Book1("Java", "Ashutosh", "76857");
