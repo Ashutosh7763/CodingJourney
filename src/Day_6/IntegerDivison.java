@@ -14,6 +14,8 @@ public class IntegerDivison {
         totalMarks=sc.nextFloat();
         float percentage=((thoeoryMarks + practicalMarks) * 100)/totalMarks;
         int round = Math.round(percentage);
+        
         System.out.print("Percentage=" + round + "%");
+
     }
 }
